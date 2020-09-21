@@ -6,6 +6,8 @@ program to print Fizz-Buzz instead of integers multiples of 3, 5 upto 100
 import java.util.*;
 class FizzBuzz 
 {
+public static void main(string[] args)
+{
 int i;
 //for loop 100 times
 for(i=1;i<=100;i++)
@@ -21,5 +23,6 @@ System.out.println("Fizz");
 //print the no. 
 else
 System.out.println(""+i);
+}
 }
 }
